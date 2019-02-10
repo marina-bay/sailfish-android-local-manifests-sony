@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
+
+  <!-- Uncomment as needed -->
+  <!-- <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="master"/> -->
+
+</manifest>
