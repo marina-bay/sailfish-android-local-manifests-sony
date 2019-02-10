@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Uncomment as needed -->
+  <!-- <project path="hybris/droid-configs" name="droid-config-sony-tone" remote="marina" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-sony-tone" name="droid-hal-version-sony-tone" remote="marina" revision="master" /> -->
+
+</manifest>

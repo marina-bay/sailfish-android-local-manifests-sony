@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Uncomment as needed -->
+  <!-- <project path="hybris/droid-configs" name="droid-config-sony-nile" remote="hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-sony-nile" name="droid-hal-version-sony-nile" remote="hybris" revision="master" /> -->
+
+</manifest>
