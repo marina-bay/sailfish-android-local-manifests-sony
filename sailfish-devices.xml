@@ -2,8 +2,10 @@
 <manifest>
 
   <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
+  <remote fetch="https://github.com/marina-bay/" name="marina" revision="master"/>
 
   <!-- Uncomment as needed -->
   <!-- <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="master"/> -->
+  <!-- <project name="droid-src-sony-tone" path="rpm" remote="marina" revision="master"/> -->
 
 </manifest>
