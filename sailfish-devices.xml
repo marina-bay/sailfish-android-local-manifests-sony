@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master"/>
-  <remote fetch="https://github.com/marina-bay/" name="marina" revision="master"/>
+  <remote fetch="https://github.com/marina-bay/" name="marina" revision="master" />
 
   <!-- Uncomment as needed -->
-  <!-- <project name="droid-src-sony-nile" path="rpm" remote="hybris" revision="master"/> -->
-  <!-- <project name="droid-src-sony-tone" path="rpm" remote="marina" revision="master"/> -->
+
+  <!-- <project path="rpm" name="droid-src-sony-nile" remote="hybris" revision="master" /> -->
+  <!-- <project path="rpm/dhs" name="droid-hal-source" remote="hybris" revision="master" /> -->
+
+  <!-- <project path="rpm" name="droid-src-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" /> -->
+  <!-- <project path="rpm/dhs" name="droid-hal-source" remote="hybris" revision="master" /> -->
+
+  <!-- <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="master" /> -->
+  <!-- <project path="rpm/dhd" name="droid-hal-device" remote="hybris" revision="master" /> -->
+
+  <project path="rpm" name="droid-hal-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
+  <project path="rpm/dhd" name="droid-hal-device" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
 
 </manifest>

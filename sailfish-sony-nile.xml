@@ -3,6 +3,7 @@
 
   <!-- Uncomment as needed -->
   <!-- <project path="hybris/droid-configs" name="droid-config-sony-nile" remote="hybris" revision="master" /> -->
-  <!-- <project path="hybris/droid-hal-version-sony-nile" name="droid-hal-version-sony-nile" remote="hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-nile" name="droid-hal-version-sony-nile" remote="hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-nile/droid-hal-version" name="droid-hal-version" remote="hybris" revision="master" /> -->
 
 </manifest>

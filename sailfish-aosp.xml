@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206"/>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master" />
+  <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-patches" revision="hybris-sony-aosp-8.1.0_r52_20190206" />
+  <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-sony-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206" />
 
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
 
   <project name="android_bionic" path="bionic" remote="mer-hybris-patches" />
+  <project name="android_build" path="build/make" remote="mer-hybris-patches" />
   <project name="android_frameworks_av" path="frameworks/av" remote="mer-hybris-patches" />
-  <project name="android_frameworks_base" path="frameworks/base" remote="mer-hybris-patches" />
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="mer-hybris-patches" />
-  <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="mer-hybris-patches" />
-  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="mer-hybris-patches" />
-  <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="mer-hybris-patches" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="mer-hybris-patches" />
-  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="mer-hybris-patches" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="mer-hybris-sony-patches" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="mer-hybris-patches"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="mer-hybris-sony-patches" />
+  <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="mer-hybris-sony-patches" />
+  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="mer-hybris-sony-patches" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="mer-hybris-patches"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="mer-hybris-sony-patches" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="mer-hybris-sony-patches" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="mer-hybris-sony-patches" />
   <project name="android_system_core" path="system/core" remote="mer-hybris-patches" />
-  <project name="android_system_nfc" path="system/nfc" remote="mer-hybris-patches" />
-  <project name="android_system_vold" path="system/vold" remote="mer-hybris-patches" />
+  <project name="android_system_nfc" path="system/nfc" remote="mer-hybris-sony-patches" />
+  <project name="android_system_vold" path="system/vold" remote="mer-hybris-sony-patches" />
+
+  <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="master" />
+  <project name="android_external_selinux_stubs" path="external/selinux_stubs" remote="hybris" revision="master" />
 
 </manifest>
