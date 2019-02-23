@@ -2,9 +2,7 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <project path="kernel/sony/msm-4.4/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
-<!-- <project path="kernel/sony/msm-4.4/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" clone-depth="1"/> -->
-<!-- <project path="kernel/sony/msm-4.4/kernel" name="kernel" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" /> -->
-<project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="marina" revision="sfos-3.0.1.14-4.4" />
+<project name="android_kernel_sony_msm" path="kernel/sony/msm-4.4/kernel" remote="marina" revision="sfos-3.0.1.11-4.4" />
 <project path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
 <project path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
 <project path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />

@@ -2,8 +2,17 @@
 <manifest>
 
   <!-- Uncomment as needed -->
-  <!-- <project path="hybris/droid-configs" name="droid-config-sony-nile" remote="hybris" revision="master" /> -->
-  <!-- <project path="hybris/droid-hal-version-nile" name="droid-hal-version-sony-nile" remote="hybris" revision="master" /> -->
-  <!-- <project path="hybris/droid-hal-version-nile/droid-hal-version" name="droid-hal-version" remote="hybris" revision="master" /> -->
+
+  <!-- <project path="hybris/droid-configs" name="droid-config-sony-nile" remote="mer-hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-configs/droid-configs-device" name="droid-hal-configs" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+
+  <!-- <project path="hybris/droid-hal-version-nile" name="droid-hal-version-sony-nile" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-hal-version-nile/droid-hal-version" name="droid-hal-version" remote="mer-hybris" revision="master" /> -->
+
+  <!-- <project path="hybris/droid-hal-img-boot-nile" name="droid-hal-img-boot-sony-nile" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-hal-img-boot-nile/initrd" name="hybris-initrd" remote="mer-hybris" revision="master" /> -->
+
+  <!-- <project path="hybris/droid-system-nile" name="droid-system-sony-nile" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-system-vendor-nile" name="droid-system-vendor-sony-nile" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
 
 </manifest>

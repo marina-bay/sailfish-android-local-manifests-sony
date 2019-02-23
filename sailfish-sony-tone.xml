@@ -2,15 +2,22 @@
 <manifest>
 
   <!-- Uncomment as needed -->
-  <project path="hybris/droid-configs" name="droid-config-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
-  <project path="hybris/droid-configs/droid-configs-device" name="droid-hal-configs" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
 
-  <!-- <project path="hybris/droid-hal-version-dora" name="droid-hal-version-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" /> -->
-  <project path="hybris/droid-hal-version-kagura" name="droid-hal-version-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
-  <!-- <project path="hybris/droid-hal-version-keyaki" name="droid-hal-version-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" /> -->
+  <!-- <project path="hybris/droid-configs" name="droid-config-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-configs/droid-configs-device" name="droid-hal-configs" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
 
-  <!-- <project path="hybris/droid-hal-version-dora/droid-hal-version" name="droid-hal-version" remote="hybris" revision="master" /> -->
-  <project path="hybris/droid-hal-version-kagura/droid-hal-version" name="droid-hal-version" remote="hybris" revision="master" />
-  <!-- <project path="hybris/droid-hal-version-keyaki/droid-hal-version" name="droid-hal-version" remote="hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-dora" name="droid-hal-version-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-hal-version-kagura" name="droid-hal-version-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-hal-version-keyaki" name="droid-hal-version-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+
+  <!-- <project path="hybris/droid-hal-version-dora/droid-hal-version" name="droid-hal-version" remote="mer-hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-kagura/droid-hal-version" name="droid-hal-version" remote="mer-hybris" revision="master" /> -->
+  <!-- <project path="hybris/droid-hal-version-keyaki/droid-hal-version" name="droid-hal-version" remote="mer-hybris" revision="master" /> -->
+
+  <!-- <project path="hybris/droid-hal-img-boot-tone" name="droid-hal-img-boot-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-hal-img-boot-tone/initrd" name="hybris-initrd" remote="mer-hybris" revision="master" /> -->
+
+  <!-- <project path="hybris/droid-system-tone" name="droid-system-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="hybris/droid-system-vendor-tone" name="droid-system-vendor-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
 
 </manifest>

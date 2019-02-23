@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote fetch="https://github.com/sailfishos/" name="sailfishos" />
   <remote fetch="https://github.com/krnlyng/" name="krnlyng" />
 
   <!-- Mer Projects -->
+  <project path="external/busybox" name="android_external_busybox_prebuilt" remote="mer-hybris" revision="master" />
+  <project path="external/selinux_stubs" name="android_external_selinux_stubs" remote="mer-hybris" revision="master" />
+  <project path="external/libhybris" name="android_external_libhybris" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
+  <project path="external/libhybris/libhybris" name="libhybris" remote="krnlyng" revision="67537a7e0925ad12377022f08de2186f4e3ec6aa" />
+  <!-- <project path="external/libhybris/libhybris" name="libhybris" remote="marina" revision="sfos-3.0.1.14-android-8.1" /> -->
+  <project path="external/audioflingerglue" name="audioflingerglue" remote="mer-hybris" revision="master" />
+  <project path="external/droidmedia" name="droidmedia" remote="sailfishos" revision="master" />
+
   <project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
-  <project name="android_external_libhybris" path="external/libhybris" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
-  <!-- <project name="libhybris" path="external/libhybris/libhybris" remote="marina" revision="sfos-3.0.1.14-android-8.1" /> -->
-  <project name="libhybris" path="external/libhybris/libhybris" remote="krnlyng" revision="67537a7e0925ad12377022f08de2186f4e3ec6aa" />
-  <project path="hybris/hybris-initrd" name="hybris-initrd" remote="hybris" revision="master" />
   <project path="hybris/hybris-boot" name="hybris-boot" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
 
 </manifest>

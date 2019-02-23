@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://github.com/mer-hybris/" name="hybris" revision="master" />
+  <remote fetch="https://github.com/mer-hybris/" name="mer-hybris" revision="master" />
   <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-patches" revision="hybris-sony-aosp-8.1.0_r52_20190206" />
   <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-sony-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206" />
 
@@ -21,23 +21,20 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
 
-  <project name="android_bionic" path="bionic" remote="mer-hybris-patches" />
-  <project name="android_build" path="build/make" remote="mer-hybris-patches" />
-  <project name="android_frameworks_av" path="frameworks/av" remote="mer-hybris-patches" />
-  <project name="android_frameworks_base" path="frameworks/base" remote="mer-hybris-sony-patches" />
-  <project name="android_frameworks_native" path="frameworks/native" remote="mer-hybris-patches"/>
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="mer-hybris-sony-patches" />
-  <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="mer-hybris-sony-patches" />
-  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="mer-hybris-sony-patches" />
-  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="mer-hybris-patches"/>
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="mer-hybris-sony-patches" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="mer-hybris-sony-patches" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="mer-hybris-sony-patches" />
-  <project name="android_system_core" path="system/core" remote="mer-hybris-patches" />
-  <project name="android_system_nfc" path="system/nfc" remote="mer-hybris-sony-patches" />
-  <project name="android_system_vold" path="system/vold" remote="mer-hybris-sony-patches" />
-
-  <project name="android_external_busybox_prebuilt" path="external/busybox" remote="hybris" revision="master" />
-  <project name="android_external_selinux_stubs" path="external/selinux_stubs" remote="hybris" revision="master" />
+  <project path="bionic" name="android_bionic" remote="mer-hybris-patches" />
+  <project path="build/make" name="android_build" remote="mer-hybris-patches" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="mer-hybris-patches" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mer-hybris-sony-patches" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="mer-hybris-patches"/>
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="mer-hybris-sony-patches" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="mer-hybris-sony-patches" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="mer-hybris-sony-patches" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mer-hybris-patches"/>
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="mer-hybris-sony-patches" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="mer-hybris-sony-patches" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="mer-hybris-sony-patches" />
+  <project path="system/core" name="android_system_core" remote="mer-hybris-patches" />
+  <project path="system/nfc" name="android_system_nfc" remote="mer-hybris-sony-patches" />
+  <project path="system/vold" name="android_system_vold" remote="mer-hybris-sony-patches" />
 
 </manifest>

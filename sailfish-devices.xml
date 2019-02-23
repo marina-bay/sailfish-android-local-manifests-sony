@@ -5,16 +5,15 @@
 
   <!-- Uncomment as needed -->
 
-  <!-- <project path="rpm" name="droid-src-sony-nile" remote="hybris" revision="master" /> -->
-  <!-- <project path="rpm/dhs" name="droid-hal-source" remote="hybris" revision="master" /> -->
-
-  <!-- <project path="rpm" name="droid-src-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" /> -->
-  <!-- <project path="rpm/dhs" name="droid-hal-source" remote="hybris" revision="master" /> -->
-
-  <!-- <project name="droid-hal-sony-nile" path="rpm" remote="hybris" revision="master" /> -->
+  <!-- <project path="rpm" name="droid-hal-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="rpm/dhd" name="droid-hal-device" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="rpm" name="droid-hal-sony-nile" remote="hybris" revision="master" /> -->
   <!-- <project path="rpm/dhd" name="droid-hal-device" remote="hybris" revision="master" /> -->
 
-  <project path="rpm" name="droid-hal-sony-tone" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
-  <project path="rpm/dhd" name="droid-hal-device" remote="marina" revision="sfos-3.0.1.14-android-8.1" />
+  <!-- If building source packages: -->
+  <!-- <project path="rpm" name="droid-src-sony-tone" remote="marina" revision="sfos-3.0.1.11-android-8.1" /> -->
+  <!-- <project path="rpm/dhs" name="droid-hal-source" remote="hybris" revision="master" /> -->
+  <!-- <project path="rpm" name="droid-src-sony-nile" remote="hybris" revision="master" /> -->
+  <!-- <project path="rpm/dhs" name="droid-hal-source" remote="hybris" revision="master" /> -->
 
 </manifest>
