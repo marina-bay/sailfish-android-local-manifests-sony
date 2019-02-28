@@ -5,6 +5,9 @@
   <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-patches" revision="hybris-sony-aosp-8.1.0_r52_20190206" />
   <remote fetch="https://github.com/mer-hybris/" name="mer-hybris-sony-patches" revision="droid-src-sony-aosp-8.1.0_r52_20190206" />
 
+  <!-- ATTENTION: Do not use this file when building the Lineage/AOSP system.img. -->
+  <!-- Only use it to sync needed components for building hybris-hal -->
+
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/av" />
